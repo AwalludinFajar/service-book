@@ -1,0 +1,13 @@
+{
+    "name": "MasterBook",
+    "alias": "masterbook",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\MasterBook\\Providers\\MasterBookServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,13 @@
+{
+    "name": "PetugasUse",
+    "alias": "petugasuse",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\PetugasUse\\Providers\\PetugasUseServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

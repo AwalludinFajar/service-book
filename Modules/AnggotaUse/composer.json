@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/anggotause",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\AnggotaUse\\Providers\\AnggotaUseServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\AnggotaUse\\": ""
+        }
+    }
+}

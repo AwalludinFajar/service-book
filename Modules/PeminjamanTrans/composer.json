@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/peminjamantrans",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\PeminjamanTrans\\Providers\\PeminjamanTransServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PeminjamanTrans\\": ""
+        }
+    }
+}

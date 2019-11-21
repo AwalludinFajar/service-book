@@ -1,0 +1,13 @@
+{
+    "name": "DendaTrans",
+    "alias": "dendatrans",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\DendaTrans\\Providers\\DendaTransServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

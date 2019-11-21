@@ -1,0 +1,13 @@
+{
+    "name": "AnggotaUse",
+    "alias": "anggotause",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\AnggotaUse\\Providers\\AnggotaUseServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

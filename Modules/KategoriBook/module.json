@@ -1,0 +1,13 @@
+{
+    "name": "KategoriBook",
+    "alias": "kategoribook",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\KategoriBook\\Providers\\KategoriBookServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

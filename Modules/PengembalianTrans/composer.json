@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/pengembaliantrans",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\PengembalianTrans\\Providers\\PengembalianTransServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PengembalianTrans\\": ""
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "LoginAndAuth",
+    "alias": "loginandauth",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\LoginAndAuth\\Providers\\LoginAndAuthServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

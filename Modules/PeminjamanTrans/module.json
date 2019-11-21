@@ -1,0 +1,13 @@
+{
+    "name": "PeminjamanTrans",
+    "alias": "peminjamantrans",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\PeminjamanTrans\\Providers\\PeminjamanTransServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

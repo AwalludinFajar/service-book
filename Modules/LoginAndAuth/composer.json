@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/loginandauth",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\LoginAndAuth\\Providers\\LoginAndAuthServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LoginAndAuth\\": ""
+        }
+    }
+}

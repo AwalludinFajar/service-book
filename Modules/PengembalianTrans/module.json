@@ -1,0 +1,13 @@
+{
+    "name": "PengembalianTrans",
+    "alias": "pengembaliantrans",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\PengembalianTrans\\Providers\\PengembalianTransServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

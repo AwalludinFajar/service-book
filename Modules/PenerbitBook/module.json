@@ -1,0 +1,13 @@
+{
+    "name": "PenerbitBook",
+    "alias": "penerbitbook",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\PenerbitBook\\Providers\\PenerbitBookServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
