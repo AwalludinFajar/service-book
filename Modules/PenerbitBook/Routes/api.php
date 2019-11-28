@@ -16,3 +16,9 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/penerbitbook', function (Request $request) {
     return $request->user();
 });
+
+Route::prefix('v1')->group(function(){
+  Route::get('penerbit_book', 'Api\ApiPenerbitBookController@index');
+  Route::post('new/penerbit_book', 'Api\ApiPenerbitBookController@store');
+  Route::post('delete/penerbit_book', 'Api\ApiPenerbitBookController@destroy');
+});

@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class PenerbitBook extends Model
 {
-    protected $fillable = [];
+    protected $fillable = ['nama_penerbit','alamat_penerbit','kontak'];
 
     public function MasterBook($value='')
     {

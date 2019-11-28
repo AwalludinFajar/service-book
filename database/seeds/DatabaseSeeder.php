@@ -19,5 +19,9 @@ class DatabaseSeeder extends Seeder
         $this->call(PenerbitBooksTableSeeder::class);
         $this->call(PengembalianTransTableSeeder::class);
         $this->call(PetugasUsesTableSeeder::class);
+        $this->call(MasterBooksTableSeeder::class);
+        $this->call(OauthAccessTokensTableSeeder::class);
+        $this->call(OauthClientsTableSeeder::class);
+        $this->call(OauthPersonalAccessClientsTableSeeder::class);
     }
 }

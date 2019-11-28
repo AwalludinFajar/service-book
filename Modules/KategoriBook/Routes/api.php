@@ -16,3 +16,9 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/kategoribook', function (Request $request) {
     return $request->user();
 });
+
+Route::prefix('v1')->group(function(){
+  Route::get('kategori_book', 'Api\ApiKategoriBookController@index');
+  Route::post('new/kategori_book', 'Api\ApiKategoriBookController@store');
+  Route::post('delete/kategori_book', 'Api\ApiKategoriBookController@destroy');
+});

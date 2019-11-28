@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class KategoriBook extends Model
 {
-    protected $fillable = [];
+    protected $fillable = ['nama_kategori','keterangan'];
 
     public function MasterBook($value='')
     {
